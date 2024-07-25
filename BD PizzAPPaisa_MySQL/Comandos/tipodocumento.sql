@@ -1,0 +1,2 @@
+SELECT * FROM pizzappaisa_mysql.tipodocumento;
+insert into tipodocumento values ('CC', 'Cedula De Ciudadania'), ('TI', 'Tarjeta de Identidad'), ('RCN', 'Registro Civil de Nacimiento'), ('CE', 'Cedula Extranjera'), ('PAS', 'Pasaporte'), ('PEP', 'Permiso Especial de Permanencia'), ('DNI','Documento Nacional de Identidad'), ('LS', 'Licencia de Conduccion')

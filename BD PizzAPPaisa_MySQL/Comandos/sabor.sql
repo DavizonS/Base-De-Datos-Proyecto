@@ -1,0 +1,2 @@
+SELECT * FROM pizzappaisa_mysql.sabor;
+insert into sabor values ('CBQ', 'Carne BBQ', '12500'), ('PCH', 'Pollo Champinon', '13400'), ('CTR', 'Carne Tradicional', '14200'), ('HWI', 'Hawaiana', '10800'), ('MDR', 'Maduro', '11700'), ('MTO', 'Mango Tocineta', '15000'), ('MXC', 'Mexicana', '13200'), ('PSA', 'Paisa', '12000'), ('RCH', 'Ranchera', '14900'), ('TRP', 'Tropical', '10500')
