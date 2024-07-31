@@ -58,3 +58,10 @@ SELECT DISTINCT idSabor FROM linea;
 
 -- Obtener el número total de órdenes
 SELECT COUNT(*) AS total_ordenes FROM linea;
+
+-- obtener la informacion de quien hiso cada orden
+select usuario.UsuarioNombre, Usuario.UsuarioApellido, ordencompra.idOrden from ordencompra inner join usuario on usuario.usuarioTelefono =ordencompra.usuarioTelefono;
+
+-- Mostrar los usuarios por tipo de documento
+
+select usuario.usuarioNombre, usuario.usuarioApellido, usuario.idTipoDocumento, usuario.numeroDocumento from tipodocumento inner join usuario on usuario.idTipoDocumento = tipodocumento.idTipoDocumento;
